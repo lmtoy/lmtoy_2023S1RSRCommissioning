@@ -29,11 +29,11 @@ Normally the command
 generates the text file for slurm, but currently RSR cannot run in parallel. But when it does,
 this will be the command
 
-      slurm_lmtoy.sh linecheck.run1
+      sbatch_lmtoy.sh linecheck.run1
 
 to run *everything* (historic data too).  And
 
-      slurm_lmtoy.sh linecheck.run2
+      sbatch_lmtoy.sh linecheck.run2
 	  
 to run the combinations.
 
