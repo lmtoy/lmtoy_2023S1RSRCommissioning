@@ -29,7 +29,7 @@ pars1['I12112']     = "xlines=107.40,0.25"
 #        common parameters per source on subsequent runs (run1a, run2a)
 pars2 = {}
 pars2['I10565']     = ""
-pars1['I05189']     = ""
+pars2['I05189']     = ""
 pars2['I12112']     = ""
 
 # below here no need to change code
