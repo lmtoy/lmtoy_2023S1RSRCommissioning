@@ -25,7 +25,7 @@ on['VIIZw31'] = [103505, 103506]
 pars1 = {}
 
 pars1['I10565']     = "xlines=110.51,0.15,108.65,0.3,85.2,0.4"
-pars1['I05189']     = "xlines=107.6,0.3"    # needs accuracy
+pars1['I05189']     = "xlines=110.53,0.25"
 pars1['I12112']     = "xlines=107.40,0.25"
 pars1['VIIZw31']    = ""
 
