@@ -21,14 +21,16 @@ project="linecheck"
 
 #        obsnums per source (make it negative if not added to the final combination)
 on = {}
-on['I10565'] = [103436, 103437,  103439, 103440]
+on['I10565']  = [103436, 103437,  103439, 103440, 103843, 103844, 103847, 103848]
 
-on['I05189'] = [103372, 103373, 103380, 103381, 103418, 103419, 103509, 103510]
+on['I05189']  = [103372, 103373, 103380, 103381, 103418, 103419, 103509, 103510,
+                 103713, 103714]
 
-on['I12112'] = [103350, 103351]
+on['I12112']  = [103350, 103351, 103851, 103852]
 
-on['VIIZw31'] = [103505, 103506]
+on['VIIZw31'] = [103505, 103506, 103779, 103780]
 
+on['I17208']  = [103855, 103856]
 
 #       common parameters per source on the first dryrun (run1, run2)
 pars1 = {}
@@ -37,6 +39,7 @@ pars1['I10565']     = "xlines=110.51,0.15,108.65,0.3,85.2,0.4"
 pars1['I05189']     = "xlines=110.53,0.25"
 pars1['I12112']     = "xlines=107.40,0.25"
 pars1['VIIZw31']    = "xlines=109.34,0.25"
+pars1['I17208']     = "xlines=110.50,0.20,108.8,0.3"
 
 #        common parameters per source on subsequent runs (run1a, run2a)
 pars2 = {}
@@ -44,5 +47,6 @@ pars2['I10565']     = ""
 pars2['I05189']     = ""
 pars2['I12112']     = ""
 pars2['VIIZw31']    = ""
+pars2['I17208']     = ""
 
 runs.mk_runs(project, on, pars1, pars2)
