@@ -1,12 +1,12 @@
 
 
 
-PID  = 2023S1RSRCommissioning 
+include PID 
 
 help:
 	@echo PID=$(PID)
 	@echo WORK_LMT=$(WORK_LMT)
-	@echo Targets here:
+	@echo "Targets here:"
 	@echo "   runs      - make the run1/run2/... files"
 	@echo "   summary   - update the project summary index"
 
@@ -16,13 +16,6 @@ help:
 
 runs:
 	./mk_runs.py
-	@echo "----"
-	@echo "Submit your run script in one of the following methods:"
-	@echo "    sbatch_lmtoy.sh RUN1"
-	@echo "    parallel --jobs 16 < RUN1"
-	@echo "    bash RUN1"
-	@echo "when this is done, RUN2 can be started"
-	@echo "----"
 
 #          maintain the needed symlinks of the comments.txt file
 comments:
