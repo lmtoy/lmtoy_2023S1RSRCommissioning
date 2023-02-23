@@ -45,11 +45,11 @@ on['VIIZw31'] = [ 103505, 103506, 103779, 103780, 104526, 104527]
 #       common parameters per source on the first dryrun (run1, run2)
 pars1 = {}
 
-pars1['I10565']     = "linecheck=1 srdp=1 cthr=0.012"
-pars1['I05189']     = "linecheck=1 srdp=1 cthr=0.015"
-pars1['I12112']     = "linecheck=1 srdp=1"
-pars1['VIIZw31']    = "linecheck=1 srdp=1"
-pars1['I17208']     = "linecheck=1 srdp=1"
+pars1['I10565']     = "linecheck=1 srdp=0 cthr=0.012"
+pars1['I05189']     = "linecheck=1 srdp=0 cthr=0.015"
+pars1['I12112']     = "linecheck=1 srdp=0"
+pars1['VIIZw31']    = "linecheck=1 srdp=0"
+pars1['I17208']     = "linecheck=1 srdp=0"
 
 #        common parameters per source on subsequent runs (run1a, run2a)
 pars2 = {}
