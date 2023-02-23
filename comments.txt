@@ -1,13 +1,13 @@
 # 17 jan
 103350  42/36 - 2nd LO was off 
-103351  35/35
-103372  7???/38 mK
-103373  88/39 mK
-103380  -/39
-103381  164/42
-103418  74/28 - better data now
-103419  134/28
-103436  125/-
+103351  35/35 - 2nd LO was off
+103372  7???/38 mK - 2nd LO was off
+103373  88/39 mK - 2nd LO was off
+103380  -/39 - 2nd LO was off
+103381  164/42 - 2nd LO was off
+103418  74/28 - LO fixed; still looks bad
+103419  134/28  - LO fixed; still looks bad
+103436  125/-   Only now better data
 103437  116/-
 103439  105/97
 103440  97/95
