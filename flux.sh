@@ -26,3 +26,10 @@ for obsnum in $*; do
     
 done
 
+#  these are for flux2.tab for nemoplot access
+echo '#PLOT grep I05189 flux2.tab   | tabhist - 3,4  0   80 resid=f'
+echo '#PLOT grep I10565 flux2.tab   | tabhist - 3,4  0  160 resid=f'
+echo '#PLOT grep I12112 flux2.tab   | tabhist - 3,4  0   80 resid=f'
+echo '#PLOT grep I05189 flux2.tab   | tabplot - 3 4  0  80 0  80 dxcol=5 dycol=6'
+echo '#PLOT grep I10565 flux2.tab   | tabplot - 3 4  0 160 0 160 dxcol=5 dycol=6'
+echo '#PLOT grep I12112 flux2.tab   | tabplot - 3 4  0  80 0  80 dxcol=5 dycol=6'
