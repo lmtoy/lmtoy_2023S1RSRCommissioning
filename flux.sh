@@ -10,6 +10,8 @@ for obsnum in $*; do
     if [ -e $log ]; then
 	f1=$(grep ^1 $log  | head -1 | txtpar - "%1/1000/%2*%3*2.507*c/1000"  p0=1,4 p1=1,6 p2=1,8)
 	f2=$(grep ^1 $log  | tail -1 | txtpar - "%1/1000/%2*%3*2.507*c/1000"  p0=1,4 p1=1,6 p2=1,8)
+	w1=$(grep ^1 $log  | head -1 | txtpar - p0=1,8)
+	w2=$(grep ^1 $log  | tail -1 | txtpar - p0=1,8)
 	l1=$(grep ^rsr $log | head -1 | txtpar - p0=1,5)
 	l2=$(grep ^rsr $log | tail -1 | txtpar - p0=1,5)
 	p1=$(grep ^1 $log  | head -1 | txtpar -  p0=1,4)
@@ -17,9 +19,11 @@ for obsnum in $*; do
 	dp1=$(grep ^1 $log  | head -1 | txtpar -  p0=1,5)
 	dp2=$(grep ^1 $log  | tail -1 | txtpar -  p0=1,5)
 	#  mode=1
-	#echo $obsnum $src a $f1 b $f2 c $l1 d $l2 e $p1 $p2
+	echo "$obsnum $src  $f1 $f2  $l1 $l2  $p1 $p2"
 	#  mode=2
-	echo $obsnum $src  $p1 $p2 $dp1 $dp2
+	# echo "$obsnum $src  $p1 $p2  $dp1 $dp2"
+	#  mode=3
+	# echo "$obsnum $src  $w1 $w2"
     else
 	echo "# $obsnum $src"
     fi
