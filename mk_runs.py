@@ -42,22 +42,23 @@ on['I17208']  = [ 103855, 103856,]
 on['VIIZw31'] = [ 103505, 103506, 103779, 103780, 104526, 104527]
 
 
-#       common parameters per source on the first dryrun (run1, run2)
+#       common parameters per source on the first dryrun (run1a, run2a)
 pars1 = {}
 
-pars1['I10565']     = "linecheck=1 srdp=0 cthr=0.015"
-pars1['I05189']     = "linecheck=1 srdp=0 cthr=0.015"
-pars1['I12112']     = "linecheck=1 srdp=0 cthr=0.015"
-pars1['VIIZw31']    = "linecheck=1 srdp=0 cthr=0.015"
-pars1['I17208']     = "linecheck=1 srdp=0 cthr=0.015"
+pars1['I10565']     = "linecheck=1 cthr=0.015"
+pars1['I05189']     = "linecheck=1 cthr=0.015"
+pars1['I12112']     = "linecheck=1 cthr=0.015"
+pars1['VIIZw31']    = "linecheck=1 cthr=0.015"
+pars1['I17208']     = "linecheck=1 cthr=0.015"
 
-#        common parameters per source on subsequent runs (run1a, run2a)
+#        common parameters per source on subsequent runs (run1b, run2b)
 pars2 = {}
 
-pars2['I10565']     = ""
-pars2['I05189']     = ""
-pars2['I12112']     = ""
-pars2['VIIZw31']    = ""
-pars2['I17208']     = ""
+pars2['I10565']     = "srdp=1"
+pars2['I05189']     = "srdp=1"
+pars2['I12112']     = "srdp=1"
+pars2['VIIZw31']    = "srdp=1"
+pars2['I17208']     = "srdp=1"
 
-runs.mk_runs(project, on, pars1, pars2)
+if __name__ == '__main__':    
+    runs.mk_runs(project, on, pars1, pars2)
