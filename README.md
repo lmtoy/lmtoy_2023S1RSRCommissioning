@@ -43,3 +43,5 @@ theory one should be able to work from scratch:
 
       source_obsnum.sh -l  2023S1RSRCommissioning > ./mk_runs_new.py
 
+the output of which can be compared to mk_runs.py
+
