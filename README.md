@@ -39,9 +39,8 @@ to run the combinations.
 
 
 Here's a way to make a new mk_runs.py file. Normally one would view and diff/merge it with an existing one, but in
-theory one should be able to work from scratch:
+theory one should be able to work from scratch::
 
       source_obsnum.sh -l  2023S1RSRCommissioning > ./mk_runs_new.py
 
-the output of which can be compared to mk_runs.py
-
+the output of which can be compared to mk_runs.py 
