@@ -1,12 +1,12 @@
 # 17 jan
-103350  42/36 - 2nd LO was off 
-103351  35/35 - 2nd LO was off
-103372  7???/38 mK -> 40/39 - 2nd LO was off
-103373  88/39 mK -> 40/39 - 2nd LO was off
-103380  -/39 -> 41/40 - 2nd LO was off
-103381  164/42 -> 47/43 -  2nd LO was off
-103418  74/28 -> 28/28 - LO fixed; still looks bad
-103419  134/28  -> 30/29 - LO fixed; still looks bad
+103350  BAD: 42/36 - 2nd LO was off 
+103351  BAD: 35/35 - 2nd LO was off
+103372  BAD: 7???/38 mK -> 40/39 - 2nd LO was off
+103373  BAD: 88/39 mK -> 40/39 - 2nd LO was off
+103380  BAD: -/39 -> 41/40 - 2nd LO was off
+103381  BAD: 164/42 -> 47/43 -  2nd LO was off
+103418  BAD: 74/28 -> 28/28 - LO fixed; still looks bad
+103419  BAD: 134/28  -> 30/29 - LO fixed; still looks bad
 103436  125/- -> 126/123 -  Only now better data
 103437  116/- -> 116/113
 103439  105/97 -> 105/103
@@ -49,8 +49,8 @@
 104659 1788/37
 104660 1830/36
 # ?
-104911 many bad lags
-104912 many bad lags
+104911 BAD: many bad lags
+104912 BAD: many bad lags
 # 8-feb
 104991 111/-
 104992 116/-
