@@ -51,7 +51,7 @@ pars1 = {}
 
 pars1['I10565']     = "linecheck=1 cthr=0.015"
 pars1['I05189']     = "linecheck=1 cthr=0.015"
-pars1['I12112']     = "linecheck=1 cthr=0.015"
+pars1['I12112']     = "linecheck=1 cthr=0.015"   # badcb=1/1,2/0,2/1,2/2,2/3,2/4,2/5,3/0,3/1,3/2,3/3,3/4,3/5"
 pars1['I17208']     = "linecheck=1 cthr=0.015"
 pars1['VIIZw31']    = "linecheck=1 cthr=0.015"
 
