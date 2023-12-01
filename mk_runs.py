@@ -7,14 +7,8 @@
 import os
 import sys
 
-# in prep of the new lmtoy module
-try:
-    lmtoy = os.environ['LMTOY']
-    sys.path.append(lmtoy + '/lmtoy')
-    import runs
-except:
-    print("No LMTOY with runs.py")
-    sys.exit(0)
+from lmtoy import runs
+
 
 #  2023S1RSRCommissioning 
 project="linecheck"
@@ -70,4 +64,5 @@ pars2['I17208']     = "srdp=1"
 pars2['VIIZw31']    = "srdp=1"
 
 if __name__ == '__main__':    
-    runs.mk_runs(project, on, pars1, pars2)
+    runs.mk_runs(project, on, pars1, pars2, sys.argv)
+
